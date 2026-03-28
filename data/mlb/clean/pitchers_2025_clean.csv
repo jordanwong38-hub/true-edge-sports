@@ -1,126 +1,424 @@
 player_name,player_id,team,ip,strikeout,walk,k_percent,bb_percent,whiff_percent,k_minus_bb_percent,era,whip
-Dennis Santana,642701,Pittsburgh Pirates,1.0,1.0,1.0,,,,,0.0,1.0
-Gregory Soto,642397,Pittsburgh Pirates,1.0,2.0,0.0,,,,,0.0,0.0
-Isaac Mattson,676755,Pittsburgh Pirates,0.2,1.0,2.0,,,,,27.0,7.5
-Justin Lawrence,664875,Pittsburgh Pirates,1.0,0.0,0.0,,,,,18.0,2.0
-Mason Montgomery,682254,Pittsburgh Pirates,1.1,2.0,3.0,,,,,13.5,3.0
-Paul Skenes,694973,Pittsburgh Pirates,0.2,1.0,2.0,,,,,67.5,9.0
-Yohan Ramírez,670990,Pittsburgh Pirates,2.1,3.0,1.0,,,,,0.0,0.86
-Bradgley Rodriguez,699134,San Diego Padres,2.0,3.0,0.0,,,,,0.0,0.0
-David Morgan,688158,San Diego Padres,1.0,1.0,1.0,,,,,0.0,2.0
-Nick Pivetta,601713,San Diego Padres,3.0,4.0,3.0,,,,,18.0,3.33
-Ron Marinaccio,676760,San Diego Padres,2.0,2.0,0.0,,,,,9.0,1.5
-Wandy Peralta,593974,San Diego Padres,1.0,0.0,0.0,,,,,0.0,1.0
-Casey Legumina,668984,Seattle Mariners,1.0,2.0,1.0,,,,,0.0,2.0
-Cooper Criswell,681867,Seattle Mariners,1.0,1.0,1.0,,,,,9.0,2.0
-Gabe Speier,642100,Seattle Mariners,1.0,1.0,0.0,,,,,18.0,3.0
-Jose A. Ferrer,678606,Seattle Mariners,0.2,0.0,0.0,,,,,0.0,3.0
-Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,,,5.06,0.94
+Hogan Harris,663687,Athletics,1.1,0.0,1.0,,,0.0,,0.0,0.75
+Hogan Harris,663687,Athletics,1.1,0.0,1.0,,,25.0,,0.0,0.75
+Justin Sterner,686993,Athletics,0.2,0.0,0.0,,,0.0,,13.5,4.5
+Justin Sterner,686993,Athletics,0.2,0.0,0.0,,,33.3,,13.5,4.5
+Luis Severino,622663,Athletics,5.0,3.0,3.0,,,8.3,,3.6,1.2
+Luis Severino,622663,Athletics,5.0,3.0,3.0,,,20.0,,3.6,1.2
+Luis Severino,622663,Athletics,5.0,3.0,3.0,,,11.1,,3.6,1.2
+Luis Severino,622663,Athletics,5.0,3.0,3.0,,,50.0,,3.6,1.2
+Luis Severino,622663,Athletics,5.0,3.0,3.0,,,0.0,,3.6,1.2
+Scott Barlow,605130,Athletics,1.2,0.0,0.0,,,0.0,,0.0,0.6
+Scott Barlow,605130,Athletics,1.2,0.0,0.0,,,50.0,,0.0,0.6
+Dennis Santana,642701,Pittsburgh Pirates,1.0,1.0,1.0,,,33.3,,0.0,1.0
+Dennis Santana,642701,Pittsburgh Pirates,1.0,1.0,1.0,,,0.0,,0.0,1.0
+Gregory Soto,642397,Pittsburgh Pirates,1.0,2.0,0.0,,,75.0,,0.0,0.0
+Gregory Soto,642397,Pittsburgh Pirates,1.0,2.0,0.0,,,0.0,,0.0,0.0
+Isaac Mattson,676755,Pittsburgh Pirates,0.2,1.0,2.0,,,18.8,,27.0,7.5
+Isaac Mattson,676755,Pittsburgh Pirates,0.2,1.0,2.0,,,33.3,,27.0,7.5
+Justin Lawrence,664875,Pittsburgh Pirates,1.0,0.0,0.0,,,0.0,,18.0,2.0
+Mason Montgomery,682254,Pittsburgh Pirates,1.1,2.0,3.0,,,26.7,,13.5,3.0
+Mason Montgomery,682254,Pittsburgh Pirates,1.1,2.0,3.0,,,50.0,,13.5,3.0
+Paul Skenes,694973,Pittsburgh Pirates,0.2,1.0,2.0,,,14.3,,67.5,9.0
+Paul Skenes,694973,Pittsburgh Pirates,0.2,1.0,2.0,,,0.0,,67.5,9.0
+Paul Skenes,694973,Pittsburgh Pirates,0.2,1.0,2.0,,,50.0,,67.5,9.0
+Yohan Ramírez,670990,Pittsburgh Pirates,2.1,3.0,1.0,,,33.3,,0.0,0.86
+Yohan Ramírez,670990,Pittsburgh Pirates,2.1,3.0,1.0,,,16.7,,0.0,0.86
+Yohan Ramírez,670990,Pittsburgh Pirates,2.1,3.0,1.0,,,0.0,,0.0,0.86
+Adrian Morejon,670970,San Diego Padres,2.0,1.0,0.0,,,25.0,,0.0,0.5
+Adrian Morejon,670970,San Diego Padres,2.0,1.0,0.0,,,0.0,,0.0,0.5
+Adrian Morejon,670970,San Diego Padres,2.0,1.0,0.0,,,100.0,,0.0,0.5
+Bradgley Rodriguez,699134,San Diego Padres,2.0,3.0,0.0,,,50.0,,0.0,0.0
+Bradgley Rodriguez,699134,San Diego Padres,2.0,3.0,0.0,,,100.0,,0.0,0.0
+Bradgley Rodriguez,699134,San Diego Padres,2.0,3.0,0.0,,,33.3,,0.0,0.0
+David Morgan,688158,San Diego Padres,2.0,1.0,2.0,,,14.3,,0.0,2.0
+David Morgan,688158,San Diego Padres,2.0,1.0,2.0,,,0.0,,0.0,2.0
+David Morgan,688158,San Diego Padres,2.0,1.0,2.0,,,100.0,,0.0,2.0
+Jeremiah Estrada,669093,San Diego Padres,0.2,2.0,3.0,,,33.3,,54.0,6.0
+Jeremiah Estrada,669093,San Diego Padres,0.2,2.0,3.0,,,50.0,,54.0,6.0
+Michael King,650633,San Diego Padres,5.0,6.0,4.0,,,44.4,,0.0,1.0
+Michael King,650633,San Diego Padres,5.0,6.0,4.0,,,66.7,,0.0,1.0
+Michael King,650633,San Diego Padres,5.0,6.0,4.0,,,33.3,,0.0,1.0
+Michael King,650633,San Diego Padres,5.0,6.0,4.0,,,40.0,,0.0,1.0
+Michael King,650633,San Diego Padres,5.0,6.0,4.0,,,0.0,,0.0,1.0
+Nick Pivetta,601713,San Diego Padres,3.0,4.0,3.0,,,25.0,,18.0,3.33
+Nick Pivetta,601713,San Diego Padres,3.0,4.0,3.0,,,28.6,,18.0,3.33
+Nick Pivetta,601713,San Diego Padres,3.0,4.0,3.0,,,50.0,,18.0,3.33
+Nick Pivetta,601713,San Diego Padres,3.0,4.0,3.0,,,0.0,,18.0,3.33
+Ron Marinaccio,676760,San Diego Padres,2.0,2.0,0.0,,,50.0,,9.0,1.5
+Ron Marinaccio,676760,San Diego Padres,2.0,2.0,0.0,,,28.6,,9.0,1.5
+Ron Marinaccio,676760,San Diego Padres,2.0,2.0,0.0,,,0.0,,9.0,1.5
+Wandy Peralta,593974,San Diego Padres,1.1,0.0,0.0,,,20.0,,0.0,2.25
+Wandy Peralta,593974,San Diego Padres,1.1,0.0,0.0,,,0.0,,0.0,2.25
+Andrés Muñoz,662253,Seattle Mariners,1.0,2.0,0.0,,,50.0,,0.0,1.0
+Andrés Muñoz,662253,Seattle Mariners,1.0,2.0,0.0,,,0.0,,0.0,1.0
+Casey Legumina,668984,Seattle Mariners,1.0,2.0,1.0,,,33.3,,0.0,2.0
+Casey Legumina,668984,Seattle Mariners,1.0,2.0,1.0,,,0.0,,0.0,2.0
+Casey Legumina,668984,Seattle Mariners,1.0,2.0,1.0,,,50.0,,0.0,2.0
+Cooper Criswell,681867,Seattle Mariners,1.0,1.0,1.0,,,50.0,,9.0,2.0
+Cooper Criswell,681867,Seattle Mariners,1.0,1.0,1.0,,,0.0,,9.0,2.0
+Eduard Bazardo,660825,Seattle Mariners,1.0,1.0,1.0,,,0.0,,0.0,1.0
+Gabe Speier,642100,Seattle Mariners,1.0,1.0,0.0,,,0.0,,18.0,3.0
+Gabe Speier,642100,Seattle Mariners,1.0,1.0,0.0,,,66.7,,18.0,3.0
+Gabe Speier,642100,Seattle Mariners,1.0,1.0,0.0,,,40.0,,18.0,3.0
+George Kirby,669923,Seattle Mariners,6.0,6.0,2.0,,,21.7,,1.5,0.67
+George Kirby,669923,Seattle Mariners,6.0,6.0,2.0,,,50.0,,1.5,0.67
+George Kirby,669923,Seattle Mariners,6.0,6.0,2.0,,,25.0,,1.5,0.67
+George Kirby,669923,Seattle Mariners,6.0,6.0,2.0,,,0.0,,1.5,0.67
+Jose A. Ferrer,678606,Seattle Mariners,0.2,0.0,0.0,,,33.3,,0.0,3.0
+Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,33.3,,5.06,0.94
+Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,0.0,,5.06,0.94
+Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,28.6,,5.06,0.94
+Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,50.0,,5.06,0.94
+Logan Gilbert,669302,Seattle Mariners,5.1,7.0,0.0,,,36.4,,5.06,0.94
+Matt Brash,666374,Seattle Mariners,1.0,0.0,0.0,,,25.0,,0.0,1.0
+Matt Brash,666374,Seattle Mariners,1.0,0.0,0.0,,,0.0,,0.0,1.0
 Caleb Kilian,668873,San Francisco Giants,1.0,1.0,0.0,,,100.0,,0.0,0.0
 Caleb Kilian,668873,San Francisco Giants,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Erik Miller,669062,San Francisco Giants,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Erik Miller,669062,San Francisco Giants,1.0,0.0,0.0,,,50.0,,0.0,0.0
 JT Brubaker,664141,San Francisco Giants,2.0,2.0,1.0,,,0.0,,0.0,1.0
 JT Brubaker,664141,San Francisco Giants,2.0,2.0,1.0,,,100.0,,0.0,1.0
-Keaton Winn,676775,San Francisco Giants,1.0,2.0,1.0,,,66.7,,0.0,1.0
+José Buttó,676130,San Francisco Giants,0.2,2.0,0.0,,,33.3,,13.5,3.0
+José Buttó,676130,San Francisco Giants,0.2,2.0,0.0,,,100.0,,13.5,3.0
+José Buttó,676130,San Francisco Giants,0.2,2.0,0.0,,,0.0,,13.5,3.0
 Keaton Winn,676775,San Francisco Giants,1.0,2.0,1.0,,,0.0,,0.0,1.0
+Keaton Winn,676775,San Francisco Giants,1.0,2.0,1.0,,,66.7,,0.0,1.0
 Logan Webb,657277,San Francisco Giants,5.0,7.0,1.0,,,28.6,,10.8,2.0
 Logan Webb,657277,San Francisco Giants,5.0,7.0,1.0,,,18.8,,10.8,2.0
 Logan Webb,657277,San Francisco Giants,5.0,7.0,1.0,,,33.3,,10.8,2.0
 Logan Webb,657277,San Francisco Giants,5.0,7.0,1.0,,,0.0,,10.8,2.0
-Chris Roycroft,688297,St. Louis Cardinals,0.1,0.0,0.0,,,,,27.0,9.0
-JoJo Romero,668941,St. Louis Cardinals,0.2,0.0,0.0,,,,,0.0,3.0
-Justin Bruihl,677865,St. Louis Cardinals,0.1,0.0,1.0,,,,,54.0,6.0
-Matt Svanson,694335,St. Louis Cardinals,0.1,0.0,0.0,,,,,81.0,9.0
-Matthew Liberatore,669461,St. Louis Cardinals,5.0,2.0,2.0,,,,,1.8,1.8
-Riley O'Brien,676617,St. Louis Cardinals,1.1,2.0,0.0,,,,,0.0,0.75
-Ryne Stanek,592773,St. Louis Cardinals,1.0,1.0,3.0,,,,,0.0,3.0
-Drew Rasmussen,656876,Tampa Bay Rays,5.0,2.0,0.0,,,,,1.8,0.8
-Garrett Cleavinger,664076,Tampa Bay Rays,0.1,0.0,0.0,,,,,54.0,6.0
-Griffin Jax,643377,Tampa Bay Rays,0.2,0.0,0.0,,,,,13.5,1.5
-Ian Seymour,693855,Tampa Bay Rays,0.0,0.0,0.0,,,,,,
-Yoendrys Gómez,672782,Tampa Bay Rays,2.0,1.0,1.0,,,,,0.0,1.5
-Carter Baumler,691945,Texas Rangers,1.0,1.0,1.0,,,,,0.0,2.0
-Jalen Beeks,656222,Texas Rangers,1.1,2.0,0.0,,,,,0.0,0.75
-Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,,,9.64,1.71
-Tyler Alexander,641302,Texas Rangers,1.0,0.0,0.0,,,,,0.0,0.0
-Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,,,0.0,0.56
-Justin Topa,623437,Minnesota Twins,1.0,0.0,0.0,,,,,9.0,2.0
-Kody Funderburk,681892,Minnesota Twins,0.2,0.0,1.0,,,,,13.5,3.0
-Taylor Rogers,573124,Minnesota Twins,1.0,1.0,0.0,,,,,0.0,1.0
-Cristopher Sánchez,650911,Philadelphia Phillies,6.0,10.0,0.0,,,,,0.0,0.5
-Jhoan Duran,661395,Philadelphia Phillies,0.2,1.0,0.0,,,,,0.0,1.5
-Jonathan Bowlan,680742,Philadelphia Phillies,1.0,0.0,0.0,,,,,0.0,1.0
-Kyle Backhus,679775,Philadelphia Phillies,0.1,0.0,0.0,,,,,81.0,9.0
-Zach Pop,647315,Philadelphia Phillies,1.0,0.0,1.0,,,,,0.0,1.0
-Jedixson Paez,699151,Chicago White Sox,1.1,0.0,2.0,,,,,20.25,3.0
-Jordan Hicks,663855,Chicago White Sox,0.2,0.0,4.0,,,,,40.5,9.0
-Jordan Leasure,673929,Chicago White Sox,1.0,0.0,0.0,,,,,0.0,0.0
-Sean Newcomb,656794,Chicago White Sox,2.1,1.0,1.0,,,,,7.71,1.71
-Shane Smith,681343,Chicago White Sox,1.2,2.0,2.0,,,,,16.2,3.0
-Tyler Gilbert,656457,Chicago White Sox,1.0,0.0,1.0,,,,,18.0,3.0
+Matt Gage,657424,San Francisco Giants,1.0,0.0,1.0,,,0.0,,0.0,1.0
+Robbie Ray,592662,San Francisco Giants,5.1,4.0,0.0,,,11.5,,3.38,0.94
+Robbie Ray,592662,San Francisco Giants,5.1,4.0,0.0,,,42.1,,3.38,0.94
+Robbie Ray,592662,San Francisco Giants,5.1,4.0,0.0,,,0.0,,3.38,0.94
+Ryan Borucki,621366,San Francisco Giants,0.2,0.0,1.0,,,50.0,,0.0,1.5
+Ryan Borucki,621366,San Francisco Giants,0.2,0.0,1.0,,,0.0,,0.0,1.5
+Ryan Walker,676254,San Francisco Giants,0.1,1.0,1.0,,,0.0,,0.0,6.0
+Chris Roycroft,688297,St. Louis Cardinals,0.1,0.0,0.0,,,0.0,,27.0,9.0
+JoJo Romero,668941,St. Louis Cardinals,0.2,0.0,0.0,,,0.0,,0.0,3.0
+Justin Bruihl,677865,St. Louis Cardinals,0.1,0.0,1.0,,,0.0,,54.0,6.0
+Matt Svanson,694335,St. Louis Cardinals,0.1,0.0,0.0,,,0.0,,81.0,9.0
+Matt Svanson,694335,St. Louis Cardinals,0.1,0.0,0.0,,,25.0,,81.0,9.0
+Matthew Liberatore,669461,St. Louis Cardinals,5.0,2.0,2.0,,,6.3,,1.8,1.8
+Matthew Liberatore,669461,St. Louis Cardinals,5.0,2.0,2.0,,,33.3,,1.8,1.8
+Matthew Liberatore,669461,St. Louis Cardinals,5.0,2.0,2.0,,,0.0,,1.8,1.8
+Riley O'Brien,676617,St. Louis Cardinals,1.1,2.0,0.0,,,20.0,,0.0,0.75
+Ryne Stanek,592773,St. Louis Cardinals,1.0,1.0,3.0,,,60.0,,0.0,3.0
+Ryne Stanek,592773,St. Louis Cardinals,1.0,1.0,3.0,,,100.0,,0.0,3.0
+Drew Rasmussen,656876,Tampa Bay Rays,5.0,2.0,0.0,,,30.0,,1.8,0.8
+Drew Rasmussen,656876,Tampa Bay Rays,5.0,2.0,0.0,,,0.0,,1.8,0.8
+Drew Rasmussen,656876,Tampa Bay Rays,5.0,2.0,0.0,,,7.7,,1.8,0.8
+Garrett Cleavinger,664076,Tampa Bay Rays,0.1,0.0,0.0,,,0.0,,54.0,6.0
+Griffin Jax,643377,Tampa Bay Rays,0.2,0.0,0.0,,,33.3,,13.5,1.5
+Griffin Jax,643377,Tampa Bay Rays,0.2,0.0,0.0,,,0.0,,13.5,1.5
+Ian Seymour,693855,Tampa Bay Rays,0.0,0.0,0.0,,,25.0,,,
+Ian Seymour,693855,Tampa Bay Rays,0.0,0.0,0.0,,,0.0,,,
+Yoendrys Gómez,672782,Tampa Bay Rays,2.0,1.0,1.0,,,0.0,,0.0,1.5
+Yoendrys Gómez,672782,Tampa Bay Rays,2.0,1.0,1.0,,,40.0,,0.0,1.5
+Carter Baumler,691945,Texas Rangers,1.0,1.0,1.0,,,20.0,,0.0,2.0
+Carter Baumler,691945,Texas Rangers,1.0,1.0,1.0,,,0.0,,0.0,2.0
+Jalen Beeks,656222,Texas Rangers,1.1,2.0,0.0,,,25.0,,0.0,0.75
+Jalen Beeks,656222,Texas Rangers,1.1,2.0,0.0,,,37.5,,0.0,0.75
+Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,40.0,,9.64,1.71
+Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,16.7,,9.64,1.71
+Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,22.2,,9.64,1.71
+Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,60.0,,9.64,1.71
+Nathan Eovaldi,543135,Texas Rangers,4.2,7.0,0.0,,,0.0,,9.64,1.71
+Tyler Alexander,641302,Texas Rangers,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Jeff Hoffman,656546,Toronto Blue Jays,1.0,4.0,0.0,,,60.0,,9.0,1.0
+Jeff Hoffman,656546,Toronto Blue Jays,1.0,4.0,0.0,,,57.1,,9.0,1.0
+Jeff Hoffman,656546,Toronto Blue Jays,1.0,4.0,0.0,,,0.0,,9.0,1.0
+Kevin Gausman,592332,Toronto Blue Jays,6.0,11.0,0.0,,,52.6,,1.5,0.17
+Kevin Gausman,592332,Toronto Blue Jays,6.0,11.0,0.0,,,25.0,,1.5,0.17
+Louis Varland,686973,Toronto Blue Jays,1.0,1.0,1.0,,,33.3,,0.0,2.0
+Louis Varland,686973,Toronto Blue Jays,1.0,1.0,1.0,,,50.0,,0.0,2.0
+Louis Varland,686973,Toronto Blue Jays,1.0,1.0,1.0,,,0.0,,0.0,2.0
+Tyler Rogers,643511,Toronto Blue Jays,1.0,0.0,1.0,,,0.0,,0.0,1.0
+Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,66.7,,0.0,0.56
+Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,20.0,,0.0,0.56
+Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,28.6,,0.0,0.56
+Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,25.0,,0.0,0.56
+Joe Ryan,657746,Minnesota Twins,5.1,7.0,2.0,,,42.9,,0.0,0.56
+Justin Topa,623437,Minnesota Twins,1.0,0.0,0.0,,,0.0,,9.0,2.0
+Kody Funderburk,681892,Minnesota Twins,0.2,0.0,1.0,,,0.0,,13.5,3.0
+Taylor Rogers,573124,Minnesota Twins,1.0,1.0,0.0,,,0.0,,0.0,1.0
+Taylor Rogers,573124,Minnesota Twins,1.0,1.0,0.0,,,50.0,,0.0,1.0
+Cristopher Sánchez,650911,Philadelphia Phillies,6.0,10.0,0.0,,,12.0,,0.0,0.5
+Cristopher Sánchez,650911,Philadelphia Phillies,6.0,10.0,0.0,,,53.8,,0.0,0.5
+Cristopher Sánchez,650911,Philadelphia Phillies,6.0,10.0,0.0,,,42.9,,0.0,0.5
+Jhoan Duran,661395,Philadelphia Phillies,0.2,1.0,0.0,,,60.0,,0.0,1.5
+Jhoan Duran,661395,Philadelphia Phillies,0.2,1.0,0.0,,,50.0,,0.0,1.5
+Jonathan Bowlan,680742,Philadelphia Phillies,1.0,0.0,0.0,,,33.3,,0.0,1.0
+Jonathan Bowlan,680742,Philadelphia Phillies,1.0,0.0,0.0,,,0.0,,0.0,1.0
+Kyle Backhus,679775,Philadelphia Phillies,0.1,0.0,0.0,,,0.0,,81.0,9.0
+Zach Pop,647315,Philadelphia Phillies,1.0,0.0,1.0,,,16.7,,0.0,1.0
+Chris Sale,519242,Atlanta Braves,6.0,6.0,3.0,,,22.7,,0.0,1.0
+Chris Sale,519242,Atlanta Braves,6.0,6.0,3.0,,,27.3,,0.0,1.0
+Chris Sale,519242,Atlanta Braves,6.0,6.0,3.0,,,20.0,,0.0,1.0
+Chris Sale,519242,Atlanta Braves,6.0,6.0,3.0,,,,,0.0,1.0
+Dylan Lee,669276,Atlanta Braves,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Robert Suarez,663158,Atlanta Braves,1.0,1.0,0.0,,,16.7,,0.0,2.0
+Robert Suarez,663158,Atlanta Braves,1.0,1.0,0.0,,,0.0,,0.0,2.0
+Tyler Kinley,641755,Atlanta Braves,1.0,1.0,0.0,,,75.0,,0.0,0.0
+Tyler Kinley,641755,Atlanta Braves,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Jedixson Paez,699151,Chicago White Sox,1.1,0.0,2.0,,,28.6,,20.25,3.0
+Jedixson Paez,699151,Chicago White Sox,1.1,0.0,2.0,,,22.2,,20.25,3.0
+Jordan Hicks,663855,Chicago White Sox,0.2,0.0,4.0,,,0.0,,40.5,9.0
+Jordan Leasure,673929,Chicago White Sox,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Jordan Leasure,673929,Chicago White Sox,1.0,0.0,0.0,,,33.3,,0.0,0.0
+Sean Newcomb,656794,Chicago White Sox,2.1,1.0,1.0,,,0.0,,7.71,1.71
+Sean Newcomb,656794,Chicago White Sox,2.1,1.0,1.0,,,20.0,,7.71,1.71
+Sean Newcomb,656794,Chicago White Sox,2.1,1.0,1.0,,,28.6,,7.71,1.71
+Shane Smith,681343,Chicago White Sox,1.2,2.0,2.0,,,25.0,,16.2,3.0
+Shane Smith,681343,Chicago White Sox,1.2,2.0,2.0,,,0.0,,16.2,3.0
+Tyler Gilbert,656457,Chicago White Sox,1.0,0.0,1.0,,,0.0,,18.0,3.0
+Tyler Gilbert,656457,Chicago White Sox,1.0,0.0,1.0,,,33.3,,18.0,3.0
+Andrew Nardi,677053,Miami Marlins,0.2,2.0,0.0,,,33.3,,0.0,1.5
+Anthony Bender,669622,Miami Marlins,0.1,1.0,0.0,,,50.0,,0.0,3.0
+Pete Fairbanks,664126,Miami Marlins,1.0,1.0,0.0,,,20.0,,0.0,1.0
+Pete Fairbanks,664126,Miami Marlins,1.0,1.0,0.0,,,0.0,,0.0,1.0
+Sandy Alcantara,645261,Miami Marlins,7.0,5.0,2.0,,,22.2,,0.0,0.86
+Sandy Alcantara,645261,Miami Marlins,7.0,5.0,2.0,,,0.0,,0.0,0.86
+Sandy Alcantara,645261,Miami Marlins,7.0,5.0,2.0,,,66.7,,0.0,0.86
+Sandy Alcantara,645261,Miami Marlins,7.0,5.0,2.0,,,20.0,,0.0,0.86
+Sandy Alcantara,645261,Miami Marlins,7.0,5.0,2.0,,,33.3,,0.0,0.86
 Brent Headrick,687396,New York Yankees,1.0,1.0,1.0,,,83.3,,0.0,2.0
 Brent Headrick,687396,New York Yankees,1.0,1.0,1.0,,,0.0,,0.0,2.0
-Camilo Doval,666808,New York Yankees,1.0,0.0,0.0,,,0.0,,0.0,0.0
-Camilo Doval,666808,New York Yankees,1.0,0.0,0.0,,,25.0,,0.0,0.0
+Cam Schlittler,693645,New York Yankees,5.1,8.0,0.0,,,40.0,,0.0,0.19
+Cam Schlittler,693645,New York Yankees,5.1,8.0,0.0,,,25.0,,0.0,0.19
+Cam Schlittler,693645,New York Yankees,5.1,8.0,0.0,,,66.7,,0.0,0.19
+Cam Schlittler,693645,New York Yankees,5.1,8.0,0.0,,,21.4,,0.0,0.19
+Cam Schlittler,693645,New York Yankees,5.1,8.0,0.0,,,0.0,,0.0,0.19
+Camilo Doval,666808,New York Yankees,2.0,3.0,0.0,,,57.1,,0.0,0.0
+Camilo Doval,666808,New York Yankees,2.0,3.0,0.0,,,20.0,,0.0,0.0
+David Bednar,670280,New York Yankees,1.0,0.0,1.0,,,0.0,,0.0,1.0
+Fernando Cruz,518585,New York Yankees,0.2,0.0,1.0,,,0.0,,0.0,1.5
+Fernando Cruz,518585,New York Yankees,0.2,0.0,1.0,,,,,0.0,1.5
 Jake Bird,656234,New York Yankees,0.2,1.0,0.0,,,100.0,,0.0,0.0
 Jake Bird,656234,New York Yankees,0.2,1.0,0.0,,,0.0,,0.0,0.0
 Max Fried,608331,New York Yankees,6.1,4.0,1.0,,,33.3,,0.0,0.47
 Max Fried,608331,New York Yankees,6.1,4.0,1.0,,,0.0,,0.0,0.47
 Max Fried,608331,New York Yankees,6.1,4.0,1.0,,,20.0,,0.0,0.47
 Max Fried,608331,New York Yankees,6.1,4.0,1.0,,,16.7,,0.0,0.47
-Aaron Ashby,676879,Milwaukee Brewers,1.0,2.0,0.0,,,,,0.0,0.0
+Tim Hill,657612,New York Yankees,1.0,2.0,0.0,,,20.0,,0.0,0.0
+Aaron Ashby,676879,Milwaukee Brewers,1.0,2.0,0.0,,,100.0,,0.0,0.0
+Aaron Ashby,676879,Milwaukee Brewers,1.0,2.0,0.0,,,33.3,,0.0,0.0
+DL Hall,669084,Milwaukee Brewers,1.0,3.0,2.0,,,0.0,,0.0,3.0
 DL Hall,669084,Milwaukee Brewers,1.0,3.0,2.0,,,,,0.0,3.0
-Grant Anderson,681982,Milwaukee Brewers,1.0,1.0,0.0,,,,,0.0,0.0
-Jacob Misiorowski,694819,Milwaukee Brewers,5.0,11.0,3.0,,,,,1.8,1.0
-Jake Woodford,663765,Milwaukee Brewers,1.0,3.0,0.0,,,,,9.0,1.0
-Chase Silseth,681217,Los Angeles Angels,0.1,0.0,0.0,,,,,0.0,0.0
-Drew Pomeranz,519141,Los Angeles Angels,1.0,0.0,0.0,,,,,0.0,0.0
-Jordan Romano,605447,Los Angeles Angels,1.0,1.0,1.0,,,,,0.0,1.0
-José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,,,0.0,1.0
-Walbert Urena,700712,Los Angeles Angels,0.2,1.0,1.0,,,,,0.0,3.0
+DL Hall,669084,Milwaukee Brewers,1.0,3.0,2.0,,,100.0,,0.0,3.0
+Grant Anderson,681982,Milwaukee Brewers,1.0,1.0,0.0,,,66.7,,0.0,0.0
+Grant Anderson,681982,Milwaukee Brewers,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Jacob Misiorowski,694819,Milwaukee Brewers,5.0,11.0,3.0,,,65.5,,1.8,1.0
+Jacob Misiorowski,694819,Milwaukee Brewers,5.0,11.0,3.0,,,66.7,,1.8,1.0
+Jacob Misiorowski,694819,Milwaukee Brewers,5.0,11.0,3.0,,,28.6,,1.8,1.0
+Jake Woodford,663765,Milwaukee Brewers,1.0,3.0,0.0,,,50.0,,9.0,1.0
+Jake Woodford,663765,Milwaukee Brewers,1.0,3.0,0.0,,,66.7,,9.0,1.0
+Chase Silseth,681217,Los Angeles Angels,1.0,0.0,0.0,,,40.0,,0.0,0.0
+Chase Silseth,681217,Los Angeles Angels,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Drew Pomeranz,519141,Los Angeles Angels,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Jordan Romano,605447,Los Angeles Angels,2.0,3.0,1.0,,,57.1,,0.0,0.5
+Jordan Romano,605447,Los Angeles Angels,2.0,3.0,1.0,,,33.3,,0.0,0.5
+José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,42.1,,0.0,1.0
+José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,15.4,,0.0,1.0
+José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,72.7,,0.0,1.0
+José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,100.0,,0.0,1.0
+José Soriano,667755,Los Angeles Angels,6.0,7.0,4.0,,,0.0,,0.0,1.0
+Ryan Zeferjahn,666171,Los Angeles Angels,2.0,2.0,0.0,,,33.3,,0.0,0.0
+Ryan Zeferjahn,666171,Los Angeles Angels,2.0,2.0,0.0,,,50.0,,0.0,0.0
+Ryan Zeferjahn,666171,Los Angeles Angels,2.0,2.0,0.0,,,0.0,,0.0,0.0
+Sam Bachman,696147,Los Angeles Angels,1.0,3.0,2.0,,,71.4,,0.0,2.0
+Sam Bachman,696147,Los Angeles Angels,1.0,3.0,2.0,,,0.0,,0.0,2.0
+Walbert Urena,700712,Los Angeles Angels,0.2,1.0,1.0,,,25.0,,0.0,3.0
+Yusei Kikuchi,579328,Los Angeles Angels,4.1,3.0,1.0,,,42.1,,4.15,2.08
+Yusei Kikuchi,579328,Los Angeles Angels,4.1,3.0,1.0,,,0.0,,4.15,2.08
+Yusei Kikuchi,579328,Los Angeles Angels,4.1,3.0,1.0,,,25.0,,4.15,2.08
+Yusei Kikuchi,579328,Los Angeles Angels,4.1,3.0,1.0,,,33.3,,4.15,2.08
+Andrew Hoffmann,694851,Arizona Diamondbacks,1.2,0.0,2.0,,,11.1,,0.0,1.8
+Andrew Hoffmann,694851,Arizona Diamondbacks,1.2,0.0,2.0,,,0.0,,0.0,1.8
 Andrew Hoffmann,694851,Arizona Diamondbacks,1.2,0.0,2.0,,,,,0.0,1.8
-Juan Morillo,666661,Arizona Diamondbacks,1.0,1.0,1.0,,,,,0.0,2.0
-Ryan Thompson,657044,Arizona Diamondbacks,1.0,1.0,0.0,,,,,0.0,0.0
+Jonathan Loáisiga,642528,Arizona Diamondbacks,1.1,1.0,0.0,,,0.0,,0.0,0.0
+Jonathan Loáisiga,642528,Arizona Diamondbacks,1.1,1.0,0.0,,,100.0,,0.0,0.0
+Jonathan Loáisiga,642528,Arizona Diamondbacks,1.1,1.0,0.0,,,50.0,,0.0,0.0
+Juan Morillo,666661,Arizona Diamondbacks,1.0,1.0,1.0,,,33.3,,0.0,2.0
+Juan Morillo,666661,Arizona Diamondbacks,1.0,1.0,1.0,,,100.0,,0.0,2.0
+Kevin Ginkel,656464,Arizona Diamondbacks,1.0,0.0,0.0,,,14.3,,9.0,2.0
+Kevin Ginkel,656464,Arizona Diamondbacks,1.0,0.0,0.0,,,0.0,,9.0,2.0
+Ryan Thompson,657044,Arizona Diamondbacks,2.0,1.0,0.0,,,33.3,,0.0,0.0
+Ryan Thompson,657044,Arizona Diamondbacks,2.0,1.0,0.0,,,0.0,,0.0,0.0
+Ryne Nelson,669194,Arizona Diamondbacks,4.2,4.0,3.0,,,27.3,,7.71,1.07
+Ryne Nelson,669194,Arizona Diamondbacks,4.2,4.0,3.0,,,25.9,,7.71,1.07
+Ryne Nelson,669194,Arizona Diamondbacks,4.2,4.0,3.0,,,50.0,,7.71,1.07
+Taylor Clarke,664199,Arizona Diamondbacks,0.1,0.0,0.0,,,0.0,,108.0,9.0
 Taylor Clarke,664199,Arizona Diamondbacks,0.1,0.0,0.0,,,,,108.0,9.0
-Zac Gallen,668678,Arizona Diamondbacks,4.0,2.0,2.0,,,,,9.0,1.75
-Ryan Helsley,664854,Baltimore Orioles,1.0,3.0,0.0,,,,,0.0,1.0
-Trevor Rogers,669432,Baltimore Orioles,7.0,5.0,4.0,,,,,0.0,1.0
-Tyler Wells,669330,Baltimore Orioles,1.0,1.0,0.0,,,,,9.0,1.0
-Aroldis Chapman,547973,Boston Red Sox,1.0,0.0,0.0,,,,,0.0,0.0
-Garrett Crochet,676979,Boston Red Sox,6.0,8.0,2.0,,,,,0.0,0.83
-Garrett Whitlock,676477,Boston Red Sox,1.0,2.0,0.0,,,,,0.0,1.0
-Justin Slaten,686580,Boston Red Sox,1.0,2.0,1.0,,,,,0.0,1.0
-Ben Brown,676962,Chicago Cubs,3.1,3.0,1.0,,,,,5.4,1.2
+Zac Gallen,668678,Arizona Diamondbacks,4.0,2.0,2.0,,,0.0,,9.0,1.75
+Zac Gallen,668678,Arizona Diamondbacks,4.0,2.0,2.0,,,14.3,,9.0,1.75
+Zac Gallen,668678,Arizona Diamondbacks,4.0,2.0,2.0,,,71.4,,9.0,1.75
+Zac Gallen,668678,Arizona Diamondbacks,4.0,2.0,2.0,,,33.3,,9.0,1.75
+Ryan Helsley,664854,Baltimore Orioles,1.0,3.0,0.0,,,66.7,,0.0,1.0
+Ryan Helsley,664854,Baltimore Orioles,1.0,3.0,0.0,,,100.0,,0.0,1.0
+Ryan Helsley,664854,Baltimore Orioles,1.0,3.0,0.0,,,33.3,,0.0,1.0
+Trevor Rogers,669432,Baltimore Orioles,7.0,5.0,4.0,,,25.0,,0.0,1.0
+Trevor Rogers,669432,Baltimore Orioles,7.0,5.0,4.0,,,13.3,,0.0,1.0
+Trevor Rogers,669432,Baltimore Orioles,7.0,5.0,4.0,,,50.0,,0.0,1.0
+Trevor Rogers,669432,Baltimore Orioles,7.0,5.0,4.0,,,0.0,,0.0,1.0
+Tyler Wells,669330,Baltimore Orioles,1.0,1.0,0.0,,,0.0,,9.0,1.0
+Tyler Wells,669330,Baltimore Orioles,1.0,1.0,0.0,,,66.7,,9.0,1.0
+Aroldis Chapman,547973,Boston Red Sox,1.0,0.0,0.0,,,0.0,,0.0,0.0
+Garrett Crochet,676979,Boston Red Sox,6.0,8.0,2.0,,,23.5,,0.0,0.83
+Garrett Crochet,676979,Boston Red Sox,6.0,8.0,2.0,,,20.0,,0.0,0.83
+Garrett Crochet,676979,Boston Red Sox,6.0,8.0,2.0,,,50.0,,0.0,0.83
+Garrett Crochet,676979,Boston Red Sox,6.0,8.0,2.0,,,16.7,,0.0,0.83
+Garrett Whitlock,676477,Boston Red Sox,1.0,2.0,0.0,,,66.7,,0.0,1.0
+Garrett Whitlock,676477,Boston Red Sox,1.0,2.0,0.0,,,50.0,,0.0,1.0
+Garrett Whitlock,676477,Boston Red Sox,1.0,2.0,0.0,,,0.0,,0.0,1.0
+Justin Slaten,686580,Boston Red Sox,1.0,2.0,1.0,,,66.7,,0.0,1.0
+Justin Slaten,686580,Boston Red Sox,1.0,2.0,1.0,,,0.0,,0.0,1.0
+Ben Brown,676962,Chicago Cubs,3.1,3.0,1.0,,,15.4,,5.4,1.2
+Ben Brown,676962,Chicago Cubs,3.1,3.0,1.0,,,40.0,,5.4,1.2
+Ben Brown,676962,Chicago Cubs,3.1,3.0,1.0,,,0.0,,5.4,1.2
+Hoby Milner,571948,Chicago Cubs,1.0,0.0,0.0,,,0.0,,0.0,1.0
 Hoby Milner,571948,Chicago Cubs,1.0,0.0,0.0,,,,,0.0,1.0
-Jacob Webb,657097,Chicago Cubs,1.0,2.0,0.0,,,,,0.0,1.0
+Jacob Webb,657097,Chicago Cubs,1.0,2.0,0.0,,,60.0,,0.0,1.0
+Jacob Webb,657097,Chicago Cubs,1.0,2.0,0.0,,,0.0,,0.0,1.0
+Matthew Boyd,571510,Chicago Cubs,3.2,7.0,1.0,,,52.0,,14.73,1.91
+Matthew Boyd,571510,Chicago Cubs,3.2,7.0,1.0,,,71.4,,14.73,1.91
+Matthew Boyd,571510,Chicago Cubs,3.2,7.0,1.0,,,40.0,,14.73,1.91
 Matthew Boyd,571510,Chicago Cubs,3.2,7.0,1.0,,,,,14.73,1.91
-Andrew Abbott,671096,Cincinnati Reds,6.0,4.0,1.0,,,,,0.0,1.33
-Brock Burke,656271,Cincinnati Reds,0.1,0.0,0.0,,,,,0.0,3.0
-Connor Phillips,683175,Cincinnati Reds,0.2,1.0,1.0,,,,,27.0,4.5
-Graham Ashcraft,668933,Cincinnati Reds,0.2,1.0,1.0,,,,,0.0,1.5
-Pierce Johnson,572955,Cincinnati Reds,0.1,0.0,0.0,,,,,27.0,6.0
-Sam Moll,594580,Cincinnati Reds,1.0,1.0,0.0,,,,,0.0,0.0
-Cade Smith,671922,Cleveland Guardians,1.0,1.0,0.0,,,,,0.0,0.0
-Connor Brogdon,641401,Cleveland Guardians,1.0,1.0,0.0,,,,,0.0,1.0
-Erik Sabrowski,681870,Cleveland Guardians,1.1,3.0,0.0,,,,,0.0,0.0
-Shawn Armstrong,542888,Cleveland Guardians,0.2,2.0,0.0,,,,,13.5,1.5
-Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,,,5.4,1.2
-Drew Anderson,623454,Detroit Tigers,1.1,0.0,2.0,,,,,6.75,3.0
-Tarik Skubal,669373,Detroit Tigers,6.0,6.0,0.0,,,,,0.0,0.5
+Andrew Abbott,671096,Cincinnati Reds,6.0,4.0,1.0,,,4.3,,0.0,1.33
+Andrew Abbott,671096,Cincinnati Reds,6.0,4.0,1.0,,,25.0,,0.0,1.33
+Andrew Abbott,671096,Cincinnati Reds,6.0,4.0,1.0,,,20.0,,0.0,1.33
+Andrew Abbott,671096,Cincinnati Reds,6.0,4.0,1.0,,,50.0,,0.0,1.33
+Brock Burke,656271,Cincinnati Reds,0.1,0.0,0.0,,,0.0,,0.0,3.0
+Connor Phillips,683175,Cincinnati Reds,0.2,1.0,1.0,,,50.0,,27.0,4.5
+Connor Phillips,683175,Cincinnati Reds,0.2,1.0,1.0,,,0.0,,27.0,4.5
+Graham Ashcraft,668933,Cincinnati Reds,0.2,1.0,1.0,,,40.0,,0.0,1.5
+Pierce Johnson,572955,Cincinnati Reds,0.1,0.0,0.0,,,0.0,,27.0,6.0
+Pierce Johnson,572955,Cincinnati Reds,0.1,0.0,0.0,,,33.3,,27.0,6.0
+Sam Moll,594580,Cincinnati Reds,1.0,1.0,0.0,,,66.7,,0.0,0.0
+Sam Moll,594580,Cincinnati Reds,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Cade Smith,671922,Cleveland Guardians,1.0,1.0,0.0,,,33.3,,0.0,0.0
+Colin Holderman,670059,Cleveland Guardians,1.0,1.0,1.0,,,0.0,,18.0,2.0
+Connor Brogdon,641401,Cleveland Guardians,1.0,1.0,0.0,,,0.0,,0.0,1.0
+Connor Brogdon,641401,Cleveland Guardians,1.0,1.0,0.0,,,100.0,,0.0,1.0
+Erik Sabrowski,681870,Cleveland Guardians,1.1,3.0,0.0,,,60.0,,0.0,0.0
+Erik Sabrowski,681870,Cleveland Guardians,1.1,3.0,0.0,,,50.0,,0.0,0.0
+Gavin Williams,668909,Cleveland Guardians,5.0,7.0,6.0,,,33.3,,5.4,1.6
+Gavin Williams,668909,Cleveland Guardians,5.0,7.0,6.0,,,18.2,,5.4,1.6
+Gavin Williams,668909,Cleveland Guardians,5.0,7.0,6.0,,,44.4,,5.4,1.6
+Gavin Williams,668909,Cleveland Guardians,5.0,7.0,6.0,,,66.7,,5.4,1.6
+Peyton Pallette,688883,Cleveland Guardians,2.0,2.0,0.0,,,33.3,,0.0,0.0
+Peyton Pallette,688883,Cleveland Guardians,2.0,2.0,0.0,,,50.0,,0.0,0.0
+Peyton Pallette,688883,Cleveland Guardians,2.0,2.0,0.0,,,0.0,,0.0,0.0
+Shawn Armstrong,542888,Cleveland Guardians,0.2,2.0,0.0,,,50.0,,13.5,1.5
+Shawn Armstrong,542888,Cleveland Guardians,0.2,2.0,0.0,,,100.0,,13.5,1.5
+Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,53.8,,5.4,1.2
+Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,40.0,,5.4,1.2
+Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,30.0,,5.4,1.2
+Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,33.3,,5.4,1.2
+Tanner Bibee,676440,Cleveland Guardians,5.0,7.0,2.0,,,0.0,,5.4,1.2
+Brennan Bernardino,657514,Colorado Rockies,0.1,0.0,0.0,,,0.0,,0.0,0.0
+Jimmy Herget,623474,Colorado Rockies,1.1,1.0,0.0,,,0.0,,0.0,1.5
+Jimmy Herget,623474,Colorado Rockies,1.1,1.0,0.0,,,33.3,,0.0,1.5
+Jimmy Herget,623474,Colorado Rockies,1.1,1.0,0.0,,,100.0,,0.0,1.5
+Juan Mejia,675848,Colorado Rockies,2.0,1.0,0.0,,,0.0,,0.0,0.5
+Kyle Freeland,607536,Colorado Rockies,4.1,2.0,2.0,,,8.3,,4.15,1.62
+Kyle Freeland,607536,Colorado Rockies,4.1,2.0,2.0,,,50.0,,4.15,1.62
+Kyle Freeland,607536,Colorado Rockies,4.1,2.0,2.0,,,0.0,,4.15,1.62
+Kyle Freeland,607536,Colorado Rockies,4.1,2.0,2.0,,,33.3,,4.15,1.62
+Drew Anderson,623454,Detroit Tigers,1.1,0.0,2.0,,,27.3,,6.75,3.0
+Drew Anderson,623454,Detroit Tigers,1.1,0.0,2.0,,,25.0,,6.75,3.0
+Enmanuel De Jesus,646241,Detroit Tigers,1.0,2.0,0.0,,,,,0.0,1.0
+Framber Valdez,664285,Detroit Tigers,6.0,5.0,1.0,,,26.3,,1.5,1.33
+Framber Valdez,664285,Detroit Tigers,6.0,5.0,1.0,,,38.5,,1.5,1.33
+Framber Valdez,664285,Detroit Tigers,6.0,5.0,1.0,,,6.7,,1.5,1.33
+Framber Valdez,664285,Detroit Tigers,6.0,5.0,1.0,,,0.0,,1.5,1.33
+Kenley Jansen,445276,Detroit Tigers,1.0,3.0,0.0,,,100.0,,0.0,0.0
+Kenley Jansen,445276,Detroit Tigers,1.0,3.0,0.0,,,66.7,,0.0,0.0
+Kyle Finnegan,640448,Detroit Tigers,1.0,2.0,1.0,,,66.7,,0.0,1.0
+Kyle Finnegan,640448,Detroit Tigers,1.0,2.0,1.0,,,16.7,,0.0,1.0
+Tarik Skubal,669373,Detroit Tigers,6.0,6.0,0.0,,,7.1,,0.0,0.5
+Tarik Skubal,669373,Detroit Tigers,6.0,6.0,0.0,,,81.8,,0.0,0.5
+Tarik Skubal,669373,Detroit Tigers,6.0,6.0,0.0,,,0.0,,0.0,0.5
+Tarik Skubal,669373,Detroit Tigers,6.0,6.0,0.0,,,33.3,,0.0,0.5
 Tyler Holton,663947,Detroit Tigers,0.2,0.0,1.0,,,,,0.0,1.5
-Will Vest,676684,Detroit Tigers,1.0,1.0,0.0,,,,,0.0,0.0
-AJ Blubaugh,805123,Houston Astros,2.1,3.0,0.0,,,,,3.86,0.86
-Bryan King,687911,Houston Astros,1.0,1.0,0.0,,,,,9.0,2.0
-Christian Roa,685005,Houston Astros,1.0,1.0,2.0,,,,,9.0,3.0
-Hunter Brown,686613,Houston Astros,4.2,9.0,4.0,,,,,0.0,1.71
-Blake Treinen,595014,Los Angeles Dodgers,1.0,1.0,0.0,,,,,0.0,1.0
-Tanner Scott,656945,Los Angeles Dodgers,1.0,0.0,0.0,,,,,0.0,0.0
-Will Klein,694361,Los Angeles Dodgers,1.0,1.0,0.0,,,,,0.0,0.0
-Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,,,3.0,0.83
-Brad Lord,695418,Washington Nationals,2.1,1.0,0.0,,,,,3.86,1.71
-Cade Cavalli,676917,Washington Nationals,3.2,5.0,3.0,,,,,4.91,1.64
-Cionel Pérez,672335,Washington Nationals,1.0,2.0,0.0,,,,,0.0,0.0
-Clayton Beeter,690925,Washington Nationals,1.0,1.0,2.0,,,,,0.0,2.0
-PJ Poulin,676571,Washington Nationals,1.0,0.0,1.0,,,,,0.0,2.0
-Freddy Peralta,642547,New York Mets,5.0,7.0,0.0,,,,,7.2,1.2
-Luis García,472610,New York Mets,1.0,2.0,0.0,,,,,18.0,3.0
-Tobias Myers,668964,New York Mets,3.0,1.0,0.0,,,,,3.0,0.33
+Tyler Holton,663947,Detroit Tigers,0.2,0.0,1.0,,,0.0,,0.0,1.5
+Will Vest,676684,Detroit Tigers,1.0,1.0,0.0,,,100.0,,0.0,0.0
+Will Vest,676684,Detroit Tigers,1.0,1.0,0.0,,,0.0,,0.0,0.0
+AJ Blubaugh,805123,Houston Astros,2.1,3.0,0.0,,,35.7,,3.86,0.86
+AJ Blubaugh,805123,Houston Astros,2.1,3.0,0.0,,,0.0,,3.86,0.86
+AJ Blubaugh,805123,Houston Astros,2.1,3.0,0.0,,,60.0,,3.86,0.86
+Bryan King,687911,Houston Astros,1.0,1.0,0.0,,,40.0,,9.0,2.0
+Bryan King,687911,Houston Astros,1.0,1.0,0.0,,,75.0,,9.0,2.0
+Christian Roa,685005,Houston Astros,1.0,1.0,2.0,,,14.3,,9.0,3.0
+Christian Roa,685005,Houston Astros,1.0,1.0,2.0,,,50.0,,9.0,3.0
+Christian Roa,685005,Houston Astros,1.0,1.0,2.0,,,100.0,,9.0,3.0
+Hunter Brown,686613,Houston Astros,4.2,9.0,4.0,,,37.5,,0.0,1.71
+Hunter Brown,686613,Houston Astros,4.2,9.0,4.0,,,7.7,,0.0,1.71
+Hunter Brown,686613,Houston Astros,4.2,9.0,4.0,,,30.0,,0.0,1.71
+Hunter Brown,686613,Houston Astros,4.2,9.0,4.0,,,0.0,,0.0,1.71
+Mike Burrows,681347,Houston Astros,5.2,6.0,2.0,,,30.8,,7.94,1.94
+Mike Burrows,681347,Houston Astros,5.2,6.0,2.0,,,44.4,,7.94,1.94
+Mike Burrows,681347,Houston Astros,5.2,6.0,2.0,,,10.0,,7.94,1.94
+Mike Burrows,681347,Houston Astros,5.2,6.0,2.0,,,0.0,,7.94,1.94
+Mike Burrows,681347,Houston Astros,5.2,6.0,2.0,,,50.0,,7.94,1.94
+Roddery Muñoz,682610,Houston Astros,0.2,0.0,3.0,,,50.0,,0.0,4.5
+Roddery Muñoz,682610,Houston Astros,0.2,0.0,3.0,,,100.0,,0.0,4.5
+Ryan Weiss,680802,Houston Astros,1.0,2.0,1.0,,,0.0,,9.0,3.0
+Ryan Weiss,680802,Houston Astros,1.0,2.0,1.0,,,100.0,,9.0,3.0
+Steven Okert,595345,Houston Astros,1.2,3.0,0.0,,,60.0,,0.0,0.0
+Steven Okert,595345,Houston Astros,1.2,3.0,0.0,,,0.0,,0.0,0.0
+Alex Lange,656638,Kansas City Royals,1.0,1.0,0.0,,,50.0,,0.0,0.0
+Alex Lange,656638,Kansas City Royals,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Bailey Falter,663559,Kansas City Royals,3.0,4.0,0.0,,,36.4,,6.0,1.67
+Bailey Falter,663559,Kansas City Royals,3.0,4.0,0.0,,,50.0,,6.0,1.67
+Bailey Falter,663559,Kansas City Royals,3.0,4.0,0.0,,,25.0,,6.0,1.67
+Cole Ragans,666142,Kansas City Royals,4.0,5.0,4.0,,,30.0,,9.0,2.5
+Cole Ragans,666142,Kansas City Royals,4.0,5.0,4.0,,,36.4,,9.0,2.5
+Cole Ragans,666142,Kansas City Royals,4.0,5.0,4.0,,,37.5,,9.0,2.5
+Cole Ragans,666142,Kansas City Royals,4.0,5.0,4.0,,,0.0,,9.0,2.5
+Alex Vesia,681911,Los Angeles Dodgers,1.0,0.0,0.0,,,0.0,,0.0,1.0
+Alex Vesia,681911,Los Angeles Dodgers,1.0,0.0,0.0,,,50.0,,0.0,1.0
+Ben Casparius,676508,Los Angeles Dodgers,0.2,1.0,1.0,,,33.3,,0.0,3.0
+Ben Casparius,676508,Los Angeles Dodgers,0.2,1.0,1.0,,,50.0,,0.0,3.0
+Blake Treinen,595014,Los Angeles Dodgers,1.0,1.0,0.0,,,33.3,,0.0,1.0
+Blake Treinen,595014,Los Angeles Dodgers,1.0,1.0,0.0,,,100.0,,0.0,1.0
+Blake Treinen,595014,Los Angeles Dodgers,1.0,1.0,0.0,,,0.0,,0.0,1.0
+Edgardo Henriquez,683618,Los Angeles Dodgers,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Edwin Díaz,621242,Los Angeles Dodgers,1.0,2.0,1.0,,,33.3,,0.0,1.0
+Emmet Sheehan,686218,Los Angeles Dodgers,3.1,6.0,2.0,,,15.4,,10.8,2.1
+Emmet Sheehan,686218,Los Angeles Dodgers,3.1,6.0,2.0,,,41.2,,10.8,2.1
+Emmet Sheehan,686218,Los Angeles Dodgers,3.1,6.0,2.0,,,44.4,,10.8,2.1
+Jack Dreyer,676263,Los Angeles Dodgers,1.2,1.0,0.0,,,28.6,,0.0,0.6
+Jack Dreyer,676263,Los Angeles Dodgers,1.2,1.0,0.0,,,0.0,,0.0,0.6
+Tanner Scott,656945,Los Angeles Dodgers,1.1,1.0,0.0,,,25.0,,0.0,0.0
+Tanner Scott,656945,Los Angeles Dodgers,1.1,1.0,0.0,,,50.0,,0.0,0.0
+Will Klein,694361,Los Angeles Dodgers,1.0,1.0,0.0,,,50.0,,0.0,0.0
+Will Klein,694361,Los Angeles Dodgers,1.0,1.0,0.0,,,0.0,,0.0,0.0
+Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,16.7,,3.0,0.83
+Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,53.3,,3.0,0.83
+Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,37.5,,3.0,0.83
+Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,40.0,,3.0,0.83
+Yoshinobu Yamamoto,808967,Los Angeles Dodgers,6.0,6.0,0.0,,,0.0,,3.0,0.83
+Brad Lord,695418,Washington Nationals,2.1,1.0,0.0,,,20.0,,3.86,1.71
+Brad Lord,695418,Washington Nationals,2.1,1.0,0.0,,,14.3,,3.86,1.71
+Cade Cavalli,676917,Washington Nationals,3.2,5.0,3.0,,,14.3,,4.91,1.64
+Cade Cavalli,676917,Washington Nationals,3.2,5.0,3.0,,,66.7,,4.91,1.64
+Cade Cavalli,676917,Washington Nationals,3.2,5.0,3.0,,,0.0,,4.91,1.64
+Cade Cavalli,676917,Washington Nationals,3.2,5.0,3.0,,,50.0,,4.91,1.64
+Cionel Pérez,672335,Washington Nationals,1.0,2.0,0.0,,,100.0,,0.0,0.0
+Cionel Pérez,672335,Washington Nationals,1.0,2.0,0.0,,,0.0,,0.0,0.0
+Clayton Beeter,690925,Washington Nationals,1.0,1.0,2.0,,,40.0,,0.0,2.0
+Clayton Beeter,690925,Washington Nationals,1.0,1.0,2.0,,,25.0,,0.0,2.0
+PJ Poulin,676571,Washington Nationals,1.0,0.0,1.0,,,16.7,,0.0,2.0
+PJ Poulin,676571,Washington Nationals,1.0,0.0,1.0,,,0.0,,0.0,2.0
+Freddy Peralta,642547,New York Mets,5.0,7.0,0.0,,,22.2,,7.2,1.2
+Freddy Peralta,642547,New York Mets,5.0,7.0,0.0,,,63.6,,7.2,1.2
+Freddy Peralta,642547,New York Mets,5.0,7.0,0.0,,,40.0,,7.2,1.2
+Freddy Peralta,642547,New York Mets,5.0,7.0,0.0,,,16.7,,7.2,1.2
+Luis García,472610,New York Mets,1.0,2.0,0.0,,,83.3,,18.0,3.0
+Luis García,472610,New York Mets,1.0,2.0,0.0,,,0.0,,18.0,3.0
+Luis García,472610,New York Mets,1.0,2.0,0.0,,,33.3,,18.0,3.0
+Tobias Myers,668964,New York Mets,3.0,1.0,0.0,,,16.7,,3.0,0.33
+Tobias Myers,668964,New York Mets,3.0,1.0,0.0,,,0.0,,3.0,0.33
+Tobias Myers,668964,New York Mets,3.0,1.0,0.0,,,50.0,,3.0,0.33
