@@ -375,63 +375,105 @@ def build_team_strengths(hitters_df: pd.DataFrame, pitchers_df: pd.DataFrame) ->
     if "team" not in hitters_df.columns or "team" not in pitchers_df.columns:
         return pd.DataFrame()
 
-    hit = hitters_df.groupby("team", dropna=True).agg(
-        team_ops=("on_base_plus_slg", "mean"),
-        team_woba=("woba", "mean"),
-        team_hh=("hard_hit_percent", "mean"),
-    ).reset_index()
+    # ---------- Hitters ----------
+    hit_aggs = {}
+    if "on_base_plus_slg" in hitters_df.columns:
+        hit_aggs["team_ops"] = ("on_base_plus_slg", "mean")
+    if "woba" in hitters_df.columns:
+        hit_aggs["team_woba"] = ("woba", "mean")
+    if "hard_hit_percent" in hitters_df.columns:
+        hit_aggs["team_hh"] = ("hard_hit_percent", "mean")
 
-    pitch_aggs = {
-        "team_kbb": ("k_minus_bb_percent", "mean"),
-        "team_whiff": ("whiff_percent", "mean"),
-        "team_hha": ("hard_hit_percent", "mean"),
-    }
+    if hit_aggs:
+        hit = hitters_df.groupby("team", dropna=True).agg(**hit_aggs).reset_index()
+    else:
+        hit = hitters_df[["team"]].dropna().drop_duplicates().copy()
+
+    # ---------- Pitchers ----------
+    pitch_aggs = {}
+    if "k_minus_bb_percent" in pitchers_df.columns:
+        pitch_aggs["team_kbb"] = ("k_minus_bb_percent", "mean")
+    if "whiff_percent" in pitchers_df.columns:
+        pitch_aggs["team_whiff"] = ("whiff_percent", "mean")
+    if "hard_hit_percent" in pitchers_df.columns:
+        pitch_aggs["team_hha"] = ("hard_hit_percent", "mean")
     if "era" in pitchers_df.columns:
         pitch_aggs["team_era"] = ("era", "mean")
     if "whip" in pitchers_df.columns:
         pitch_aggs["team_whip"] = ("whip", "mean")
 
-    pitch = pitchers_df.groupby("team", dropna=True).agg(**pitch_aggs).reset_index()
+    if pitch_aggs:
+        pitch = pitchers_df.groupby("team", dropna=True).agg(**pitch_aggs).reset_index()
+    else:
+        pitch = pitchers_df[["team"]].dropna().drop_duplicates().copy()
+
     team = hit.merge(pitch, on="team", how="outer")
 
-    team["offense_score"] = (
-        zscore_series(team["team_ops"]) +
-        zscore_series(team["team_woba"]) +
-        zscore_series(team["team_hh"])
-    ) / 3
+    # ---------- Offense score ----------
+    offense_parts = []
+    if "team_ops" in team.columns:
+        offense_parts.append(zscore_series(team["team_ops"]))
+    if "team_woba" in team.columns:
+        offense_parts.append(zscore_series(team["team_woba"]))
+    if "team_hh" in team.columns:
+        offense_parts.append(zscore_series(team["team_hh"]))
 
-    pitch_parts = [
-        zscore_series(team["team_kbb"]),
-        zscore_series(team["team_whiff"]),
-        -zscore_series(team["team_hha"]),
-    ]
+    if offense_parts:
+        team["offense_score"] = sum(offense_parts) / len(offense_parts)
+    else:
+        team["offense_score"] = 0.0
+
+    # ---------- Pitching score ----------
+    pitch_parts = []
+    if "team_kbb" in team.columns:
+        pitch_parts.append(zscore_series(team["team_kbb"]))
+    if "team_whiff" in team.columns:
+        pitch_parts.append(zscore_series(team["team_whiff"]))
+    if "team_hha" in team.columns:
+        pitch_parts.append(-zscore_series(team["team_hha"]))
     if "team_era" in team.columns:
         pitch_parts.append(-zscore_series(team["team_era"]))
     if "team_whip" in team.columns:
         pitch_parts.append(-zscore_series(team["team_whip"]))
 
-    team["pitching_score"] = sum(pitch_parts) / len(pitch_parts)
+    if pitch_parts:
+        team["pitching_score"] = sum(pitch_parts) / len(pitch_parts)
+    else:
+        team["pitching_score"] = 0.0
+
     team["team_score"] = 0.55 * team["offense_score"] + 0.45 * team["pitching_score"]
     return team
 
 
 def compute_pitcher_bonus(pitchers_df: pd.DataFrame) -> pd.DataFrame:
     df = pitchers_df.copy()
-    if df.empty:
+
+    if df.empty or "player_name" not in df.columns:
         return pd.DataFrame(columns=["player_name", "pitcher_bonus"])
 
-    parts = [
-        percentile_rank(df["k_minus_bb_percent"], True) if "k_minus_bb_percent" in df.columns else 0,
-        percentile_rank(df["whiff_percent"], True) if "whiff_percent" in df.columns else 0,
-        percentile_rank(df["hard_hit_percent"], False) if "hard_hit_percent" in df.columns else 0,
-    ]
+    parts = []
+
+    if "k_minus_bb_percent" in df.columns:
+        parts.append(percentile_rank(df["k_minus_bb_percent"], True))
+
+    if "whiff_percent" in df.columns:
+        parts.append(percentile_rank(df["whiff_percent"], True))
+
+    if "hard_hit_percent" in df.columns:
+        parts.append(percentile_rank(df["hard_hit_percent"], False))
+
     if "era" in df.columns:
         parts.append(percentile_rank(df["era"], False))
+
     if "whip" in df.columns:
         parts.append(percentile_rank(df["whip"], False))
 
-    bonus = sum(parts) / len(parts)
-    df["pitcher_bonus"] = (bonus - 0.5) * 0.60
+    if parts:
+        bonus = sum(parts) / len(parts)
+        df["pitcher_bonus"] = (bonus - 0.5) * 0.60
+    else:
+        df["pitcher_bonus"] = 0.0
+
     return df[["player_name", "pitcher_bonus"]]
 
 
@@ -823,7 +865,7 @@ with tab_hitters:
             )
 
             st.markdown("---")
-            st.subheader("2025 Snapshot")
+            st.subheader("2026 Snapshot")
             a, b = st.columns(2)
             with a:
                 st.markdown(f"**PA:** {fmt(p.get('pa'), 'int')}")
